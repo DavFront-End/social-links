@@ -71,10 +71,18 @@
     padding: 1.3rem 3rem;
     border-radius: 8px;
     font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
 }
 
 .social-medias li a {
     text-decoration: none;
     color: var(--white);
 }
+
+.social-medias li:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
 
